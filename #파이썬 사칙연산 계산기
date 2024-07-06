@@ -1,0 +1,12 @@
+a = int(input("연산할 값 입력"))
+b = input("연산자 입력")
+c = int(input("연산할 값 입력"))
+
+if b == "+" :
+  print(a,"+",c, "=", a + c)
+elif b == "-":
+  print(a,"-",c, "=", a = c)
+elif b == "/" :
+  print(a,"/",c, "=", a / c)
+elif b == "*" :
+  print(a,"*",c, "=", a * c)
