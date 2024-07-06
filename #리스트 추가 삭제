@@ -1,0 +1,16 @@
+a_list = []
+for i in range(1, 11):
+  a_list.append(i)
+for i in range(1, 4):
+  a_list.pop()
+print(a_list)
+a_list.append("f")
+a_list.append("k")
+a_list.append("d")
+a_list.append("w")
+a_list.append("z")
+a_list.append("f")
+a_list.append("g")
+for i in range(1, 6):
+  a_list.pop()
+print(a_list)
