@@ -1,0 +1,9 @@
+class Human:
+  def __init__(self):
+    print("응애응애")
+#생성자 만들기
+class Human:
+  def __init__(self, name, age, sex):
+    self.name = name
+    self.age = age
+    self.sex = sex
