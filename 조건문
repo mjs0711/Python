@@ -1,0 +1,14 @@
+a = int(input("1=가위,2=바위,3=보 중에 A는 무엇을 낼지:"))
+b = int(input("1=가위,2=바위,3=보 중에 B는 무엇을 낼지:"))
+if a>b:
+ if a==3 and b==1:
+  print("b승리")
+ else:
+  print("a승리")
+elif b<a:
+  if a==1 and b==3:
+   print("a승리")
+  else:
+   print("b승리")
+else:
+  print("비김")
