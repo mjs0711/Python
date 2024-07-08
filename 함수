@@ -1,0 +1,19 @@
+def solution(shirt_size):
+    cnt=[0,0,0,0,0,0]
+    for i in shirt_size:
+        if i=="XS":
+            cnt[0]+=1
+        elif i=="S":
+            cnt[1]+=1
+        elif i=="M":
+            cnt[2]+=1
+        elif i=="L":
+            cnt[3]+=1
+        elif i=="XL":
+            cnt[4]+=1
+        elif i=="XXL":
+            cnt[5]+=1
+    return cnt
+shirt_size = ["XS","S","L","L","XL","S","XXL","M"]
+ret=solution(shirt_size)
+print("solution 함수의 반환값은",ret, "입니다.")
