@@ -1,0 +1,13 @@
+score = int(input('점수를 입력하세요'))
+if 81 <= score <= 100:
+  print('등급=A')
+elif 80 >= score >= 61:
+  print('등급=B')
+elif 60 >= score >= 41:
+  print('등급=C')
+elif 40 >= score >= 21:
+  print('등급=D')
+elif 20 >= score >= 0:
+  print('등급=E')
+else:
+  print('잘못 입력했다.')
